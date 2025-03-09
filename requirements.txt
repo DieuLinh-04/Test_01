@@ -1,0 +1,6 @@
+--extra-index-url https://pypi.org/simple
+streamlit
+scikit-learn==1.2.2
+pandas
+numpy
+joblib
