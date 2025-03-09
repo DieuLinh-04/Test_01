@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 
 # Load the dataset
-data = pd.read_csv('D:\\AI\\Code\\Test_01\\Test_linh\\cityu10c_train_dataset.csv')
+data = pd.read_csv('cityu10c_train_dataset.csv')
 
 # Drop the second column
 data.drop(data.columns[1], axis=1, inplace=True)
