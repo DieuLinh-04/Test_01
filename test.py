@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report, accuracy_score
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv('D:\\AI\\Code\\Test_01\\Test_linh\\cityu10c_train_dataset.csv')
+data = pd.read_csv('cityu10c_train_dataset.csv')
 
 # Display the first few rows of the dataset
 print(data.head())
